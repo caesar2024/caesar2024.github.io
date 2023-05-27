@@ -85,7 +85,7 @@ html {
   padding-left: 12.5%;
   padding-right: 12.5%;
   line-height: 1.35em;
-  min-width: 1000px;
+  /* min-width: 1000px; */
 }
 
 /* On wide screens, fix content width to a max value. */
