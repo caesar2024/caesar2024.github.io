@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
    <link rel="stylesheet" href="/libs/highlight/styles/github.min.css">
    
   <link rel="stylesheet" href="/css/franklin.css">
@@ -42,7 +43,7 @@
             <img src="/assets/CAESAR_logo_trans_bg1.png" alt="CAESAR" itemprop="image">
           </div>
           <div class="author__content">
-            <h3 class="author__name" itemprop="name">Cold-Air outbreak Experiment</h3>
+            <h3 class="author__name" itemprop="name">Cold-Air Outbreak Experiment</h3>
             <p class="author__bio" itemprop="description">A campaign blog of a small research team</p>
           </div>
           <div class="author__urls-wrapper">
@@ -67,6 +68,12 @@
 <iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/xowh/"   style="border:none;"></iframe>
 </div>
  <strong>Figure 1.</strong> The cloud droplet size distribution represented by a Gamma distribution function.</p>
+<h3 id="part_2_the_main_function_approach"><a href="#part_2_the_main_function_approach" class="header-anchor">Part 2: The Main Function Approach</a></h3>
+<p>During autoconversion, the size distribution continuously evolves over time. Collisions of two drops reduces cloud droplet number concentration. Collisions also produce drops of a larger size. It is desirable that the size distribution remains describable by a single mathematical function during the entire process. This is called the <em>main function approach</em>. The <a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution probability density function</a>  is suitable to characterize autoconversion. </p>
+<div class="note"><div class="title"><strong>✎ Mathematical Representation</strong></div>
+<div class="content">\(f(x) = A x^\nu \exp(-B D)\)
+<p>where \(A\) &#40;\(cm^{-3}\; m^{1-g}\)&#41;, \(\nu\; (-)\), and \(B\;(g^{-1})\) are parameters of the distribution, and \(x\) is the mass of the drop. The distribution \(f(x)\) has units of spectral density \(cm^{-1}\;g^{-1}\). The integral \(\int_0^\infty f(x)df\) equals the total liquid water mass. A triplet of values for \(A\), \(\nu\), \(B\) can be fitted to describe a measured hydrometeor distribution.</p></div></div>
+<p>While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 1. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 1 \(N_t\), \(D_g\), and \(CV\) through mathematical transformation. Most importantly, the \(\nu\) parameter controls the autoconversion rate. It is related to the coefficient of variation via \(\nu \approx 0.112/CV^2 - 1\).</p>
 <div class="page-foot">
     <!-- <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> {{ fill author }}. {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}</a>. -->
     <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></a>.
@@ -87,12 +94,17 @@
             <li><a href="https://github.com/mdpetters" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
           </ul>
         </div>
-        <div class="page__footer-copyright">&copy; Markus Petters.</div>
+        <div class="page__footer-copyright">&copy; Markus Petters and Jefferson Snider.</div>
       </footer>
     </div>
 
     <script src="/libs/minimal-mistakes/main.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/contrib/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
 
     
     
