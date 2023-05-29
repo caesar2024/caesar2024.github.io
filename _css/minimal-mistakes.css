@@ -5254,7 +5254,8 @@ a.reversefootnote:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 480px
+  padding-top: 480px;
+
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -5272,5 +5273,5 @@ a.reversefootnote:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 490px
+  padding-top: 385px;
 }

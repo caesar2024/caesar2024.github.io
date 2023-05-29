@@ -14,7 +14,6 @@ rss = "Episode X: How do we parameterize autoconversion?"
 
 ### Part 1: Representing Cloud Droplet Distributions
 
-
 ~~~
 <div class="myframe1">
 <iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/xowh/"   style="border:none;"></iframe>
@@ -23,10 +22,16 @@ rss = "Episode X: How do we parameterize autoconversion?"
 **Figure 1.** The cloud droplet size distribution represented by a Gamma distribution function.
 
 
-<!-- \mathnote{
-The cloud droplet size distribution can be expressed via a Gamma distribution function
 
-$N(D) = N_0 D^\mu \exp(-\Lambda D)$, $0 \le D \le D_{max}$
+### Part 2: The Main Function Approach
 
-where $N_0$ [$m^{-3}\; mm^{1-\mu}$], $\mu$, and $\Lambda\; [mm^{-1}]$ are parameters of the distribution, and $D_{max}$ is the maximum drop diameter. The distribution parameters have units of spectral density. A triplet of values for $N_0$ , $\mu$, $\Lambda$  can be fitted to describe measured hydrometeor distributions.
-} -->
+During autoconversion, the size distribution continuously evolves over time. Collisions of two drops reduces cloud droplet number concentration. Collisions also produce drops of a larger size. It is desirable that the size distribution remains describable by a single mathematical function during the entire process. This is called the *main function approach*. The [Gamma distribution probability density function](https://en.wikipedia.org/wiki/Gamma_distribution)  is suitable to characterize autoconversion. 
+
+
+\mathnote{
+$f(x) = A x^\nu \exp(-B D)$
+
+where $A$ ($cm^{-3}\; m^{1-g}$), $\nu\; (-)$, and $B\;(g^{-1})$ are parameters of the distribution, and $x$ is the mass of the drop. The distribution $f(x)$ has units of spectral density $cm^{-1}\;g^{-1}$. The integral $\int_0^\infty f(x)df$ equals the total liquid water mass. A triplet of values for $A$, $\nu$, $B$ can be fitted to describe a measured hydrometeor distribution.
+}
+
+While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 1. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 1 $N_t$, $D_g$, and $CV$ through mathematical transformation. Most importantly, the $\nu$ parameter controls the autoconversion rate. It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$.
