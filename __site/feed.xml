@@ -23,7 +23,26 @@
 
 <item>
   <title>
-    <![CDATA[  Lecture 1  ]]>
+    <![CDATA[  Autoconversion  ]]>
+  </title>
+  <link> Seifert/index.html </link>
+  <guid> Seifert/index.html </guid>
+  <description>
+    <![CDATA[  Episode X: How do we parameterize autoconversion?  ]]>
+  </description>  
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Markus Petters</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Episode 1  ]]>
   </title>
   <link> Episode001/index.html </link>
   <guid> Episode001/index.html </guid>

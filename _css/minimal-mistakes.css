@@ -5267,3 +5267,10 @@ a.reversefootnote:hover {
   width: 100%;
   height: 100%;
 }
+
+.myframe1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 490px
+}

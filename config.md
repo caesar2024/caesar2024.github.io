@@ -26,7 +26,7 @@ Add here global latex commands to use throughout your pages.
 
 \newcommand{\concept}[1]{@@concept @@title **✔ Key Concept**@@ @@content #1 @@ @@}
 \newcommand{\outline}[1]{@@outline @@title **✎ Lecture Outline**@@ @@content #1 @@ @@}
-\newcommand{\note}[1]{@@note @@title **✎ Note**@@ @@content #1 @@ @@}
+\newcommand{\mathnote}[1]{@@note @@title **✎ Mathematical Representation**@@ @@content #1 @@ @@}
 \newcommand{\learning}[1]{@@learning @@title **⏻ Learning Objectives**@@ @@content #1 @@ @@}
 \newcommand{\caution}[1]{@@warning @@title **⚠ Caution**@@ @@content #1 @@ @@}
 \newcommand{\exercise}[1]{@@exercise @@title **？ Exercise**@@ @@content #1 @@ @@}
