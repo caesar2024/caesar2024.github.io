@@ -11,7 +11,7 @@ The picture below shows a shallow cloud with rain falling from the center. Obser
 
 ![Picture of a raincloud](/assets/raincloud.jpg)
 
-**Figure 1.** Cumulus with likely warm rain falling from the center. Image Credit: Versageek/CC BY-SA 3.0 via Wikimedia Commons..
+**Figure 1.** Cumulus with likely warm rain falling from the center. Image Credit: Versageek/CC BY-SA 3.0 via Wikimedia Commons.
 
 
 \concept{

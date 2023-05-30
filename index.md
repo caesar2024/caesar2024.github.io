@@ -11,4 +11,39 @@ Join us to take a look behind the scenes of an atmospheric research mission flyi
 
 ## Who are we?
 
-We are a small research team who participates in the Cold-Air outbreak Experiment in the Sub-Arctic Region (CAESAR). In our normal lives we are researchers University of California, Riverside and the University of Wyoming. 
+We are a small research team who participates in the Cold-Air outbreak Experiment in the Sub-Arctic Region (CAESAR). In our normal lives we are researchers University of California, Riverside and the University of Wyoming.
+
+~~~
+<table style="width:100%">
+    <tr>
+        <td colspan = "3">
+
+        <td>
+        </tr>
+        <tr>
+        <td>    
+        </td>
+        <td style="text-align:center">
+             Markus Petters  
+        </td>
+        <td style="text-align:center">
+            Jeff Snider 
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <center><img src="/assets/nsflogo.png" alt="NSF logo" style="width:200px"></center>
+        </td>
+        <td>
+          <center><img src="/assets/profile.png" alt="Markus Petters" style=""width:200px"></center>
+        </td>
+        <td>
+         <center><img src="/assets/snider.jpg" alt="Jeff Snider" style="width:205px"> </center>
+        </td>
+    <tr>
+        <td colspan="3">
+            This research and blog is supported by the National Science Foundation awards NSF-AGS 2150769 (Petters) and 2150812 (Snider)
+        </td>
+    </tr>
+</table>
+~~~
