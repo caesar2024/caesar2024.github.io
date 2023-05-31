@@ -38,7 +38,7 @@ We are a small research team who participates in the Cold-Air outbreak Experimen
           <center><img src="/assets/profile.png" alt="Markus Petters" style=""width:200px"></center>
         </td>
         <td>
-         <center><img src="/assets/snider.jpg" alt="Jeff Snider" style="width:205px"> </center>
+         <center><img src="/assets/snider2.jpg" alt="Jeff Snider" style="width:300px"> </center>
         </td>
     <tr>
         <td colspan="3">

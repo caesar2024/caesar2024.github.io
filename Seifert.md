@@ -27,11 +27,23 @@ A cloud is made of a collection of tiny drops that are 10 to 30 μm in diameter.
 <iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/xowh/"   style="border:none;"></iframe>
 </div>
 ~~~
-**Figure 2.** The cloud droplet size distribution represented by a Gamma distribution function.
+**Figure 2.** The cloud droplet size distribution.
+
+
+### Part 2: Rain Formation by Autoconversion
+During autoconversion, the size distribution continuously evolves over time. Collisions of two drops reduces cloud droplet number concentration. Collisions also produce drops of a larger size. The cloud liquid water content (LWC) is controlled mainly by thermodyamics. The combibation of the total drop number concentration and LWC yields the mean droplet diameter. The CV value determines the dispersion of the distribution as in Figure 2. 
+
+
+~~~
+<div class="myframe2">
+<iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/hjve/"   style="border:none;"></iframe>
+</div>
+~~~
+**Figure 3.** Evolution of cloud and rain liquid water content (LWC), mean rain drop diameter (D) and rain number concentration (N) over time. 
 
 
 
-### Part 2: The Main Function Approach
+### Part 3: Math Stuff
 
 During autoconversion, the size distribution continuously evolves over time. Collisions of two drops reduces cloud droplet number concentration. Collisions also produce drops of a larger size. It is desirable that the size distribution remains describable by a single mathematical function during the entire process. This is called the *main function approach*. The [Gamma distribution probability density function](https://en.wikipedia.org/wiki/Gamma_distribution)  is suitable to characterize autoconversion. 
 
