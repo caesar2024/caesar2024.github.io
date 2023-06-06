@@ -73,7 +73,24 @@
 <div class="myframe1">
 <iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/xowh/"   style="border:none;"></iframe>
 </div>
- <strong>Figure 2.</strong> The cloud droplet size distribution.</p>
+ <strong>Figure 2.</strong> The cloud droplet size distribution. The example data spectra S1 and S2 are taken from Snider and Brenguier &#40;2000&#41;.</p>
+<div class="exercise"><div class="title"><strong>？ Test Your Understanding</strong></div>
+<div class="content"><ol>
+<li><p>On a piece of paper, predict/sketch how changing Nₜ, μ, and CV change the computed droplet size distribution.</p>
+</li>
+<li><p>Use the sliders to verify your prediction. </p>
+</li>
+<li><p>Evaluate the standard deviation σ for μ &#61; 20 and CV &#61; 0.2. Use the statistical definition of standard deviation to describe how this value relates to the width of the droplet spectrum.</p>
+</li>
+<li><p>Double-click on &quot;S1&quot; in legend. This will bring up an example cloud droplet spectrum from a stratocumulus cloud deck near the Canary Islands in Spain. Error bars are ±1 standard deviation expressing variability from pooling several spectra from different regions of the cloud. Use the sliders to find the best possible overlap between the model and the data. Record the values for Nₜ, μ, and CV.</p>
+</li>
+<li><p>Repeat this exercise for spectrum &quot;S2&quot;. </p>
+</li>
+<li><p>Contrast the Nₜ, μ, and CV between &quot;S1&quot; and &quot;S2&quot;. Write a short paragraph that quantitively summarizes the differences between the two spectra. </p>
+</li>
+<li><p>Advanced question: The spectrum &quot;S1&quot; corresponds to regions in the cloud where updraft velocities are higher while the spectrum &quot;S2&quot; corresponds to regions in the cloud where updraft velocities are lower. Propose a hypothesis that might explain the differences between S1 and S2.</p>
+</li>
+</ol></div></div>
 <h3 id="part_2_rain_formation_by_autoconversion"><a href="#part_2_rain_formation_by_autoconversion" class="header-anchor">Part 2: Rain Formation by Autoconversion</a></h3>
 <p>The distribtuion of cloud droplets evoles during autoconversion. Collisions of two droplets reduces cloud droplet number concentration. Collisions also produce drops of a larger size. The cloud liquid water content &#40;LWC&#41; is controlled mainly by thermodyamics. The combination of droplet concentration and LWC yields the mean droplet diameter. The CV value determines the dispersion of the distribution as in Figure 2. </p>
 <p>
@@ -82,11 +99,13 @@
 </div>
  <strong>Figure 3.</strong> Evolution of cloud and rain liquid water content &#40;LWC&#41;, mean rain drop diameter &#40;D&#41; and rain number concentration &#40;N&#41; over time. </p>
 <h3 id="part_3_math_stuff"><a href="#part_3_math_stuff" class="header-anchor">Part 3: Math Stuff</a></h3>
-<p>During autoconversion, the size distribution continuously evolves over time. Collisions of two drops reduces cloud droplet number concentration. Collisions also produce drops of a larger size. It is desirable that the size distribution remains describable by a single mathematical function during the entire process. This is called the <em>main function approach</em>. The <a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution probability density function</a>  is suitable to characterize autoconversion. </p>
+<p>It is desirable that the size distribution remains describable by a single mathematical function during the entire process. This is called the <em>main function approach</em>. The <a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution probability density function</a>  is suitable to characterize autoconversion. </p>
 <div class="note"><div class="title"><strong>✎ Mathematical Representation</strong></div>
 <div class="content">\(f(x) = A x^\nu \exp(-B x)\)
 <p>where \(A\) &#40;\(cm^{-3}\; g^{1-\nu}\)&#41;, \(\nu\; (-)\), and \(B\;(g^{-1})\) are parameters of the distribution, and \(x\) is the mass of the drop. The distribution \(f(x)\) has units of spectral density \(cm^{-3}\;g^{-1}\). The integral \(\int_0^\infty f(x)dx\) equals the total liquid water mass. A triplet of values for \(A\), \(\nu\), \(B\) can be fitted to describe a measured hydrometeor distribution.</p></div></div>
 <p>While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 1 \(N_t\), \(\mu\), and \(CV\) through mathematical transformation. Most importantly, the \(\nu\) parameter controls the autoconversion rate. It is related to the coefficient of variation via \(\nu \approx 0.112/CV^2 - 1\).</p>
+<h3 id="part_3_references"><a href="#part_3_references" class="header-anchor">Part 3: References</a></h3>
+<p>Snider, J.R. and Brenguier, J.-L. &#40;2000&#41;, Cloud condensation nuclei and cloud droplet measurements during ACE-2. Tellus B, 52: 828-842. <a href="https://doi.org/10.1034/j.1600-0889.2000.00044.x">https://doi.org/10.1034/j.1600-0889.2000.00044.x</a>.</p>
 <div class="page-foot">
     <!-- <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> {{ fill author }}. {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}</a>. -->
     <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></a>.
