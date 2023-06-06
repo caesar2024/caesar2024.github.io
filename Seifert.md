@@ -63,8 +63,8 @@ $f(x) = A x^\nu \exp(-B x)$
 where $A$ ($cm^{-3}\; g^{1-\nu}$), $\nu\; (-)$, and $B\;(g^{-1})$ are parameters of the distribution, and $x$ is the mass of the drop. The distribution $f(x)$ has units of spectral density $cm^{-3}\;g^{-1}$. The integral $\int_0^\infty f(x)dx$ equals the total liquid water mass. A triplet of values for $A$, $\nu$, $B$ can be fitted to describe a measured hydrometeor distribution.
 }
 
-While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 1 $N_t$, $\mu$, and $CV$ through mathematical transformation. Most importantly, the $\nu$ parameter controls the autoconversion rate. It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$.
+While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 1 $N_t$, $\mu$, and $CV$ through mathematical transformation. The $\nu$ paremeter determines the width of the distribution and thus affects the autoconversion rate.  It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$.
 
 ### Part 3: References
 
-Snider, J.R. and Brenguier, J.-L. (2000), Cloud condensation nuclei and cloud droplet measurements during ACE-2. Tellus B, 52: 828-842. [https://doi.org/10.1034/j.1600-0889.2000.00044.x](https://doi.org/10.1034/j.1600-0889.2000.00044.x).
+Snider, J.R. and Brenguier, J.-L. (2000), Cloud condensation nuclei and cloud droplet measurements during ACE-2. Tellus B, 52: 828-842. [https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0889.2000.00044.x](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0889.2000.00044.x).
