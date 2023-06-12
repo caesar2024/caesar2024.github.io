@@ -20,7 +20,7 @@ The picture below shows a shallow cloud with rain falling from the center. Obser
 
 ### Part 1: Representing Cloud Droplet Distributions
 
-A cloud is made of a collection of tiny drops that are 10 to 30 μm in diameter. This is smaller than the width of human hair, which is ~70  μm in diameter. The collection of drops can be summarized as a distribution. Summing over the distribution gives the average number of droplets per unit volume. For example, a typical number concentration is 100 cm⁻³, or 100 droplets in a 1×1×1 cm box. The average droplet diameter μ gives the size of the most common droplets. The dispersion σ gives an approximate range of droplet sizes. The relative dispersion CV, denoting the coefficient of variation, is the ratio of σ/μ and gives the relative width of the distribution. Larger values for CV correspond to broader distributions. You can use the sliders below to explore how these terms change the distribution.
+ A cloud is made of a collection of tiny drops that are 1 to 50 μm in diameter. This is smaller than the width of human hair, which is ~70  μm in diameter. The collection of drops can be summarized as a distribution. Summing over the distribution gives the average number of droplets per unit volume. For example, a typical number concentration is 100 cm⁻³, or 100 droplets in a 1×1×1 cm box. The average droplet diameter μ gives the size of the most common droplets. The dispersion σ gives an approximate range of droplet sizes. The relative dispersion CV, denoting the coefficient of variation, is the ratio of σ/μ and gives the relative width of the distribution. Larger values for CV correspond to broader distributions. You can use the sliders below to explore how these terms change the distribution.
 
 ~~~
 <div class="myframe1">
@@ -60,11 +60,14 @@ It is desirable that the size distribution remains describable by a single mathe
 \mathnote{
 $f(x) = A x^\nu \exp(-B x)$
 
-where $A$ ($cm^{-3}\; g^{1-\nu}$), $\nu\; (-)$, and $B\;(g^{-1})$ are parameters of the distribution, and $x$ is the mass of the drop. The distribution $f(x)$ has units of spectral density $cm^{-3}\;g^{-1}$. The integral $\int_0^\infty f(x)dx$ equals the total liquid water mass. A triplet of values for $A$, $\nu$, $B$ can be fitted to describe a measured hydrometeor distribution.
+where $A$ ($cm^{-3}\; g^{1-\nu}$), $\nu\; (-)$, and $B\;(g^{-1})$ are parameters of the distribution, and $x$ is the mass of the drop. The distribution $f(x)$ has units of $cm^{-3}$. The integral $\int_0^\infty f(x)dx$ equals the liquid water content in gram per cubic centimeter of air. A triplet of values for $A$, $\nu$, $B$ can be fitted to describe a measured hydrometeor distribution.
 }
 
-While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 1 $N_t$, $\mu$, and $CV$ through mathematical transformation. The $\nu$ paremeter determines the width of the distribution and thus affects the autoconversion rate.  It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$.
+While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 2 $N_t$, $\mu$, and $CV$ through mathematical transformation. The $\nu$ paremeter determines the width of the distribution and thus affects the autoconversion rate. It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$, which uses a proportionality that is similar to that give in Eq. 14 in Austin et al. (1995).
 
 ### Part 3: References
 
+Austin, P., Y. Wang, V. Kujala, and R. Pincus, 1995: Precipitation in stratocumulus clouds: Observational and modeling results. J. Atmos. Sci., 52, 2329–2352, doi:10.1175/1520-0469(1995)052,2329:PISCOA.2.0.CO;2.
+
 Snider, J.R. and Brenguier, J.-L. (2000), Cloud condensation nuclei and cloud droplet measurements during ACE-2. Tellus B, 52: 828-842. [https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0889.2000.00044.x](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0889.2000.00044.x).
+
