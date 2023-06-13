@@ -20,7 +20,7 @@ The picture below shows a shallow cloud with rain falling from the center. Obser
 
 ### Part 1: Representing Cloud Droplet Distributions
 
- A cloud is made of a collection of tiny drops that are 1 to 50 μm in diameter. This is smaller than the width of human hair, which is ~70  μm in diameter. The collection of drops can be summarized as a distribution. Summing over the distribution gives the average number of droplets per unit volume. For example, a typical number concentration is 100 cm⁻³, or 100 droplets in a 1×1×1 cm box. The average droplet diameter μ gives the size of the most common droplets. The dispersion σ gives an approximate range of droplet sizes. The relative dispersion CV, denoting the coefficient of variation, is the ratio of σ/μ and gives the relative width of the distribution. Larger values for CV correspond to broader distributions. You can use the sliders below to explore how these terms change the distribution.
+ A cloud is made of a collection of tiny drops that are 1 to 50 μm in diameter. This is smaller than the width of human hair, which is ~70  μm in diameter. The collection of drops can be summarized as a distribution. Summing over the distribution gives the average number of droplets per unit volume. For example, a typical number concentration is 100 cm⁻³, or 100 droplets in a 1×1×1 cm box. The average droplet diameter μ gives the size of the most common droplets. The dispersion σ gives an approximate range of droplet sizes. The relative dispersion CV, denoting the coefficient of variation, is the ratio of σ/μ and gives the relative width of the distribution. Larger values for CV correspond to broader distributions. You can use the sliders below to explore how these terms change the distribution.c
 
 ~~~
 <div class="myframe1">
@@ -42,7 +42,6 @@ The picture below shows a shallow cloud with rain falling from the center. Obser
 ### Part 2: Rain Formation by Autoconversion
 The distribtuion of cloud droplets evoles during autoconversion. Collisions of two droplets reduces cloud droplet number concentration. Collisions also produce drops of a larger size. The cloud liquid water content (LWC) is controlled mainly by thermodyamics. The combination of droplet concentration and LWC yields the mean droplet diameter. The CV value determines the dispersion of the distribution as in Figure 2. 
 
-
 ~~~
 <div class="myframe2">
 <iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/hjve/"   style="border:none;"></iframe>
@@ -50,6 +49,16 @@ The distribtuion of cloud droplets evoles during autoconversion. Collisions of t
 ~~~
 **Figure 3.** Evolution of cloud and rain liquid water content (LWC), mean rain drop diameter (D) and rain number concentration (N) over time. 
 
+Figure 3 highlights several important points. The initial transfer from cloud liquid water to rain liquid water is slow. Once the process reaches a critical point the cloud liquid water is rapidly converted to rain liquid water within a few 10s of minutes. Similarly, the diameter growth of the rain is at first low. However, near the critical point the average rainwater diameter rapidly grows to millimeter size in diameter, which is the characteristic diameter of rain drops during "moderate" rain. Similarly the number of rain drops first increases until it reaches a maximum. At the maximum self-collection of rain drops leads to growth in size and a decrease in their number.
+
+The time to rain formation due to autoconversion depends on $N_t$, LWC, and CV.  Higher LWC results in faster rain formation.  Clouds with higher number concentration develop precipitation more slowly. Finally, the broadness of the distribution, expressed by the CV value, also influences time to rain formation. Broader distributions lead to more rapid rain formation.
+
+\exercise{
+1. Prove to yourself that the model conserves liquid water.
+2. Use the sliders to explore the influence of $N_t$, LWC, and CV. Based on your exploration, rank the relative importance of  $N_t$, LWC, and CV on the time to rain formation.
+3. Propose an explanation why an increase in $N_t$ will decrease the precipitation efficiency of a cloud.  
+4. Advanced question: Propose an explanation on how atmospheric aerosol might influence rain formation via autoconversion.
+}
 
 
 ### Part 3: Math Stuff
@@ -63,7 +72,8 @@ $f(x) = A x^\nu \exp(-B x)$
 where $A$ ($cm^{-3}\; g^{1-\nu}$), $\nu\; (-)$, and $B\;(g^{-1})$ are parameters of the distribution, and $x$ is the mass of the drop. The distribution $f(x)$ has units of $cm^{-3}$. The integral $\int_0^\infty f(x)dx$ equals the liquid water content in gram per cubic centimeter of air. A triplet of values for $A$, $\nu$, $B$ can be fitted to describe a measured hydrometeor distribution.
 }
 
-While the function above written in terms of mass, measurements are often given in terms of droplet diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 2 $N_t$, $\mu$, and $CV$ through mathematical transformation. The $\nu$ paremeter determines the width of the distribution and thus affects the autoconversion rate. It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$, which uses a proportionality that is similar to that give in Eq. 14 in Austin et al. (1995).
+ While the function above is written in terms of hydrometeor mass, measurements are often in terms of hydrometeor diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 2 $N_t$, $\mu$, and $CV$ through mathematical transformation. The $\nu$ paremeter determines the width of the distribution and thus affects the autoconversion rate. It is related to the coefficient of variation via $\nu \approx 0.112/CV^2 - 1$, which is a relationship similar to that in Eq. 14 of Austin et al. (1995).
+
 
 ### Part 3: References
 
