@@ -23,7 +23,7 @@ An air mass is a large volume of air that is approximately homogeneous in temper
 
 ### 2. Continental Cold Air Outbreak 
 
-A cold air outbreak is the excursions the Polar or Arctic air mass into other regions. An example of a continental cold air outbreak happened in February 2021 over the North American continent. The Arctic airmass traveled as far south as Texas, causing record-low temperatures, causing widespread damage due to winter storms, frozen pipes, and power outages. The animation below illustrates the location of the cA air mass north of the 60°N parallel. On Feb 2, the temperature of the cA air mass was colder than −20°C (−4°F). Starting Feb 4, the cA air mass migrates south. On Feb 15, all of Texas was engulfed by temperatures colder than −10°C (14°F).  By Feb 22, the cold air mass had receded and the Arctic front near the 60°N parallel was reestablished. 
+A cold air outbreak is the excursions the Polar or Arctic air mass into other regions. An example of a continental cold air outbreak happened in February 2021 over the North American continent. The Arctic airmass traveled as far south as Texas, resulting in record-low temperatures and in turn causing widespread damage due to winter storms, frozen pipes, and power outages. The animation below illustrates the location of the cA air mass north of the 60°N parallel. On Feb 2, the temperature of the cA air mass was colder than −20°C (−4°F). Starting Feb 4, the cA air mass migrates south. On Feb 15, all of Texas was engulfed by temperatures colder than −10°C (14°F).  By Feb 22, the cold air mass had receded and the Arctic front near the 60°N parallel was reestablished. 
 
 ~~~
 <div class="myframe3">
@@ -46,7 +46,7 @@ Note that the cold air outbreak cooled the land. However, over time, the land al
 <iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/zelw/"   style="border:none;"></iframe>
 </div>
 ~~~
-**Figure 3.** Sub Arctic cold air outbreak event on March 20, 2020. The white are corresponds to the sea-ice extent.
+**Figure 3.** Sub Arctic cold air outbreak event on March 20, 2020. The white area corresponds to the sea-ice extent.
 
 Maritime cold air outbreaks are excursions of the cA air mass over the open unfrozen ocean. Figure 3 shows an example. Note that everywhere north of the red line (the 0°C isotherm), surface air temperatures are below the freezing temperature of water. This implies that there is a strong temperature gradient between the air and the ocean water, which is at ~−2°C. The air temperature becomes rapidly colder toward the ice edge, where surface air temperatures are as cold as −20°C. The temperature difference between the air and water results in heat and moisture transfer from the ocean to the atmosphere. This leads to the formation of the mP air mass shown in Figure 1. The heat and moisture fluxes have several important consequences on the Earth system. In the atmosphere, intense convective cloud systems produce heavy snowfall. The cold air outbreak may also spawn polar lows, which are mesoscale low pressure systems that affect shipping as well as oil and gas production in the sub-Arctic regions. Figure 4 shows the cloud response to the cold air outbreak. As these broken cloud decks stream southward, they evolve into cellular patterns. These atmospheric cloud systems are poorly and not well represented in numerical weather models.
 
