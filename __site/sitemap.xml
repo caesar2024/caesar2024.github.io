@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>Old/index.html</loc>
+    <lastmod>2023-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>index.html</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -15,13 +21,13 @@
 </url>
 <url>
     <loc>Episode001/index.html</loc>
-    <lastmod>2023-05-28</lastmod>
+    <lastmod>2023-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>cao/index.html</loc>
-    <lastmod>2023-06-15</lastmod>
+    <lastmod>2023-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
