@@ -11,7 +11,7 @@ rss = "Episode X: What, Where, When, Who, and Why?"
 # "What, Where, When, Who, and Why?"
 
 ## What?
-The CAESAR campaign acronym is for Cold Air Outbreak Experiment in the Sub-Arctic Region. The project will take a modified [Lockheed C-130 Hercules](https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules) aircraft to profile the atmosphere in an effort to better understand the clouds that form when Arctic cold air leaves the polar ice cap and travels southward over the warmer water.  The aircraft is sponsored by the U.S. National Science Foundation (NSF) and operated by the National Center of Atmspheric Research (NCAR). The aircraft has four turboprop engines, a 10-hour flight endurance, a 2,900 nautical mile range, and ceiling of 27,000 ft, and a payload capacity of up to 13,000 lbs. The video below gives you a sense of size and capabilities of this research vessel. 
+The CAESAR campaign acronym is for Cold Air Outbreak Experiment in the Sub-Arctic Region. The project will take a modified [Lockheed C-130 Hercules](https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules) aircraft to profile the atmosphere in an effort to better understand the clouds that form when Arctic cold air leaves the polar ice cap and travels southward over the warmer water.  The aircraft is sponsored by the U.S. National Science Foundation (NSF) and operated by the National Center of Atmspheric Research (NCAR). The aircraft has four turboprop engines, a 10-hour flight endurance, a 2,900 nautical mile range, and ceiling of 27,000 ft, and a payload capacity of up to 13,000 lbs. The video below gives you a sense of size and capabilities of this aircraft. 
 
 ~~~
 <iframe src="https://www.youtube.com/embed/shObWUjrXn4" style="border:none;"> </iframe>
@@ -30,7 +30,7 @@ The project home base is Kiruna, Sweden. We plan 10 hour long research flights d
 
 ## When?
 
-The field sampling is scheduled to take place February 22, 2024 to April, 7, 2024. Prior to this date, there will be installation of custom equipment on the aircraft, test flights, ferry flights that bring the aircraft from Colorado to Sweden. After the campaign the various research teams will analyze the data report their findings to the public.  
+The field sampling is scheduled to take place February 22, 2024 to April, 7, 2024. Prior to this date, there will be installation of custom equipment on the aircraft, test flights, and a ferry flight from Colorado to Sweden. After the campaign the various research teams will analyze the data and report their findings to the public.  
 
 ## Who?
 
@@ -57,7 +57,7 @@ This project involves a sizable number of stakeholders, including government age
 
 [University of Colorado](https://chem.atmos.colostate.edu/k_members.html): The team from Colorado State University will constrain primary ice nucleating particle sources and concentrations associated with cold air outbreak cloud systems, in order to better understanding of the evolution of microphysical processes and their description in collaborative cloud modeling simulations.
 
-[University of California, Riverside](https://profiles.ucr.edu/app/home/profile/markusp): The team from the University of California, Riverside will characterize aerossol size distributions, cloud condensation nuclei, and black carbon particle concentration to better understand aerosol-cloud-precipitation processes. 
+[University of California, Riverside](https://profiles.ucr.edu/app/home/profile/markusp): The team from the University of California, Riverside will characterize aerossol size distributions, cloud condensation nuclei, and black carbon particle concentration to better understand aerosol-cloud-precipitation processes. The UCR team will also collaborate with an aerosol-cloud-precipitation researcher from the University of Wyoming.
 
 [University of Oklahoma](http://mcfarq.oucreate.com/): The team from the University of Oklahoma will have primary responsibility of coordinating with NCAR on the use and processing of the cloud physics probe to better understand aerosol-cloud-precipitation processes.
 
@@ -70,4 +70,4 @@ This project involves a sizable number of stakeholders, including government age
 
 ### Why?
 
-Arctic cold air outbreak result in cold air over a warmer ocean. This causes strong heat and moisture transport from the ocean to the atmosphere. These processes have several important consequences on the Earth system. In the atmosphere, intense convective cloud systems produce heavy snowfall. The cold air outbreak may also spawn polar lows, which are mesoscale low pressure systems that affect shipping as well as oil and gas production in the sub-Arctic regions. The atmospheric processes occuring during these cold air outbreaks are poorly represented in weather forecast models. We will dedicate more in-depth information on these processes in future episodes.
+Marine cold air outbreak result in cold air over a warmer ocean. This causes strong heat and moisture transport from the ocean to the atmosphere. These processes have several important consequences for the Earth system. In the atmosphere, convective cloud systems produce heavy snowfall. The cold air outbreak may also spawn polar lows, which are mesoscale low pressure systems that affect shipping as well as oil and gas production in the sub-Arctic regions. The atmospheric processes occuring during these cold air outbreaks are poorly represented in weather forecast models. We will dedicate more in-depth information on these processes in future episodes.
