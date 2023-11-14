@@ -40,9 +40,29 @@ We are a small research team who participates in the Cold-Air outbreak Experimen
         <td>
          <center><img src="/assets/snider2.jpg" alt="Jeff Snider" style="width:300px"> </center>
         </td>
-    <tr>
+    </tr><tr>
+        <td>
+          <center><img src="/assets/nsflogo.png" alt="NSF logo" style="width:200px"></center>
+        </td>
+        <td>
+         <center><img src="/assets/mahant.png" alt="Sundandan Mahant" style="width:164px"> </center>
+        </td>
+        <td>
+          <center><img src="/assets/Lintong.png" alt="Lintong Cai" style="width:165px"></center>
+        </td>
+    </tr><tr>
+        <td>    
+        </td>
+        <td style="text-align:center">
+            Sunandan Mahant  
+        </td>
+        <td style="text-align:center">
+            Lintong Cai
+        </td>
+
+</tr>
         <td colspan="3">
-            This research and blog is supported by the National Science Foundation awards NSF-AGS 2150769 (Petters) and 2150812 (Snider)
+            This research and blog is supported by the National Science Foundation awards NSF-AGS 2150769 and 2150812.
         </td>
     </tr>
 </table>

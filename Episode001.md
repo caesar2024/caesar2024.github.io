@@ -2,7 +2,7 @@
 title = "What, Where, When, Who, and Why?"
 hascode = true
 date = Date(2023, 6, 10)
-rss = "Episode X: What, Where, When, Who, and Why?"
+rss = "Episode 1: What, Where, When, Who, and Why?"
 +++
 
 
@@ -55,18 +55,15 @@ This project involves a sizable number of stakeholders, including government age
 
 [University of Wyoming](https://www.uwyo.edu/atsc/directory/faculty/Geerts/index.html): The team from the University of Wyoming  will contribute finely resolved vertical transects of precipitation and kinematic data from airborne Doppler radars, and in situ cloud and precipitation probes to  characterize the vertical structure and circulations of Marine Boundary Layer convection.
 
-[University of Colorado](https://chem.atmos.colostate.edu/k_members.html): The team from Colorado State University will constrain primary ice nucleating particle sources and concentrations associated with cold air outbreak cloud systems, in order to better understanding of the evolution of microphysical processes and their description in collaborative cloud modeling simulations.
+[Colorado State University](https://chem.atmos.colostate.edu/k_members.html): The team from Colorado State University will constrain primary ice nucleating particle sources and concentrations associated with cold air outbreak cloud systems, in order to better understanding of the evolution of microphysical processes and their description in collaborative cloud modeling simulations.
 
-[University of California, Riverside](https://profiles.ucr.edu/app/home/profile/markusp): The team from the University of California, Riverside will characterize aerossol size distributions, cloud condensation nuclei, and black carbon particle concentration to better understand aerosol-cloud-precipitation processes. The UCR team will also collaborate with an aerosol-cloud-precipitation researcher from the University of Wyoming.
+[University of California, Riverside](https://profiles.ucr.edu/app/home/profile/markusp): The team from the University of California, Riverside will characterize aerosol size distributions, cloud condensation nuclei, and black carbon particle concentration to better understand aerosol-cloud-precipitation processes. The UCR team will also collaborate with an aerosol-cloud-precipitation researcher from the University of Wyoming.
 
 [University of Oklahoma](http://mcfarq.oucreate.com/): The team from the University of Oklahoma will have primary responsibility of coordinating with NCAR on the use and processing of the cloud physics probe to better understand aerosol-cloud-precipitation processes.
 
 [SUNY College at Oswego](https://www.oswego.edu/atmospheric-geological-sciences/content/yonggang-wang-0): The team from SUNY College at Oswego will use data collected during CAESAR to document the characteristics of boundary-layer convective  precipitation.
 
-
-### NCAR Researchers
-
-[Adriana Bailey](https://staff.ucar.edu/users/abailey): This team will evaluate stable isotopes from cloud water during CAESAR 
+[University of Michigan](https://clasp.engin.umich.edu/people/adriana-raudzens-bailey/): This team will evaluate stable isotopes from cloud water during CAESAR 
 
 ### Why?
 

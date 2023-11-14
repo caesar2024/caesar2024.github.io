@@ -2,7 +2,7 @@
 title = "Autoconversion"
 hascode = true
 date = Date(2023, 5, 30)
-rss = "Episode X: How do we parameterize autoconversion?"
+rss = "Episode 3: How do we parameterize autoconversion?"
 +++
 
 # What is Autoconversion?
