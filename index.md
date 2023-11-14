@@ -45,10 +45,10 @@ We are a small research team who participates in the Cold-Air outbreak Experimen
           <center><img src="/assets/nsflogo.png" alt="NSF logo" style="width:200px"></center>
         </td>
         <td>
-         <center><img src="/assets/mahant.png" alt="Sundandan Mahant" style="width:164px"> </center>
+         <center><img src="/assets/mahant.png" alt="Sundandan Mahant" style="width:200px"> </center>
         </td>
         <td>
-          <center><img src="/assets/Lintong.png" alt="Lintong Cai" style="width:165px"></center>
+          <center><img src="/assets/Lintong.png" alt="Lintong Cai" style="width:200px"></center>
         </td>
     </tr>
     <tr>

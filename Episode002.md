@@ -53,6 +53,7 @@ Maritime cold air outbreaks are excursions of the cA air mass over the open unfr
 ~~~
 <figure>
   <img src="/assets/COMBLE_Sat.png" alt="Trulli" style="width:100%">
+</figure>
 ~~~
 
 **Figure 4.** Satellites image over the Fram Strait and Norwegian Sea on March 28, 2020. (Souce: [https://arm.gov/news/features/post/69614](https://arm.gov/news/features/post/69614)). The domain corresponds to the region of interest (ROI) in Figure 3. Double click on ROI in the legend of Figure 3 to highlight the domain of the satellite image. The white area in the top left of the image is sea-ice. 
