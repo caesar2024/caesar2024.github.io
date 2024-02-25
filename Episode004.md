@@ -1,10 +1,3 @@
-+++
-title = "Autoconversion"
-hascode = true
-date = Date(2023, 5, 30)
-rss = "Episode 3: How do we parameterize autoconversion?"
-+++
-
 # What is Autoconversion?
 
 The picture below shows a shallow cloud with rain falling from the center. Observations show that this type of rain can form within 30 min of the initial cloud formation. Autoconversion is the process that transforms small cloud droplets into larger rain drops that then fall out from the base of the cloud.  
