@@ -104,7 +104,7 @@ To sample inside the aircraft fuselage, air is brought inside via an inlet syste
    </tr>
     <tr>
         <td>
-<b> Photo.</b> David Albee (NCAR), Jefferson Snider, Sunandan Mahant, and Lintong Cai are working together to setup the HIMIL inlet for our instruments.
+<b> Photo.</b> David Albee (NCAR), Jefferson Snider, Sunandan Mahant, and Lintong Cai are working together to decide on the configuration of the HIMIL inlet that will be used to bring sample air into the aircraft. 
 </td>
     </tr>
 </table>
