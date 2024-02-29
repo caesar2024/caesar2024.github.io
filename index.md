@@ -4,7 +4,7 @@ Join us to take a look behind the scenes of an atmospheric research mission flyi
 
 ## Who are we?
 
-We are a small research team whose members participate in the Cold-Air outbreak Experiment in the Sub-Arctic Region (CAESAR). In our normal lives we are researchers University of California, Riverside and the University of Wyoming.
+We are a small research team whose members participate in the Cold-Air outbreak Experiment in the Sub-Arctic Region (CAESAR). In our normal lives we are researchers at University of California, Riverside and at the University of Wyoming.
 
 ~~~
 <table style="width:100%">
