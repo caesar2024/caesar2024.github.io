@@ -4,15 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="/libs/katex/katex.min.css">
-     
+  
   
   <link rel="stylesheet" href="/css/franklin.css">
 <link rel="stylesheet" href="/css/minimal-mistakes.css">
 <link rel="stylesheet" href="/css/adjust.css">
 <link rel="icon" href="/assets/favicon.png">
 
-   <title>What is Autoconversion?</title>  
+   <title>Research Flight 1</title>  
   <!-- end custom head snippets -->
 </head>
 <body class="layout--single">
@@ -25,7 +24,8 @@
           <li class="masthead__menu-item"><a href="/Episode001/">About CAESAR</a></li>
           <li class="masthead__menu-item"><a href="/Episode002/">Cold Air Outbreaks</a></li>
 	  <li class="masthead__menu-item"><a href="/Episode003/">Installation</a></li>
-	  <li class="masthead__menu-item"><a href="/Episode004/">Autoconversion</a></li>
+	  <li class="masthead__menu-item"><a href="/Episode004/">Takeoff</a></li>
+	  <li class="masthead__menu-item"><a href="/Episode005/">Autoconversion</a></li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -64,65 +64,20 @@
 
 
 <!-- Content appended here -->
-<div class="franklin-content"><h1 id="what_is_autoconversion"><a href="#what_is_autoconversion" class="header-anchor">What is Autoconversion?</a></h1>
-<p>The picture below shows a shallow cloud with rain falling from the center. Observations show that this type of rain can form within 30 min of the initial cloud formation. Autoconversion is the process that transforms small cloud droplets into larger rain drops that then fall out from the base of the cloud.  </p>
-<p><img src="/assets/raincloud.jpg" alt="Picture of a raincloud" /></p>
-<p><strong>Figure 1.</strong> Cumulus with likely warm rain falling from the center. Image Credit: Versageek/CC BY-SA 3.0 via Wikimedia Commons.</p>
-<div class="concept"><div class="title"><strong>✔ Key Concept</strong></div>
-<div class="content">Autoconversion refers to the initial stage of the collision–coalescence process whereby cloud droplets collide and coalesce to form drizzle drops. Because of the low collection efficiencies among cloud drops, autoconversion can be the limiting factor in the formation of drizzle</div></div>
-<h3 id="part_1_representing_cloud_droplet_distributions"><a href="#part_1_representing_cloud_droplet_distributions" class="header-anchor">Part 1: Representing Cloud Droplet Distributions</a></h3>
-<p>A cloud is made of a collection of tiny drops that are 1 to 50 μm in diameter. This is smaller than the width of human hair, which is ~70  μm in diameter. The collection of drops can be summarized as a distribution. Summing over the distribution gives the average number of droplets per unit volume. For example, a typical number concentration is 100 cm⁻³, or 100 droplets in a 1×1×1 cm box. The average droplet diameter μ gives the size of the most common droplets. The dispersion σ gives an approximate range of droplet sizes. The relative dispersion CV, denoting the coefficient of variation, is the ratio of σ/μ and gives the relative width of the distribution. Larger values for CV correspond to broader distributions. You can use the sliders below to explore how these terms change the distribution.c</p>
-<p>
-<div class="myframe1">
-<iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/xowh/"   style="border:none;"></iframe>
-</div>
- <strong>Figure 2.</strong> The cloud droplet size distribution. The example data spectra S1 and S2 are taken from Snider and Brenguier &#40;2000&#41;.</p>
-<div class="exercise"><div class="title"><strong>？ Test Your Understanding</strong></div>
-<div class="content"><ol>
-<li><p>On a piece of paper, predict/sketch how changing Nₜ, μ, and CV change the computed droplet size distribution.</p>
-</li>
-<li><p>Use the sliders to verify your prediction. </p>
-</li>
-<li><p>Evaluate the standard deviation σ for μ &#61; 20 and CV &#61; 0.2. Use the statistical definition of standard deviation to describe how this value relates to the width of the droplet spectrum.</p>
-</li>
-<li><p>Double-click on &quot;S1&quot; in legend. This will bring up an example cloud droplet spectrum from a stratocumulus cloud deck near the Canary Islands in Spain. Error bars are ±1 standard deviation expressing variability from pooling several spectra from different regions of the cloud. Use the sliders to find the best possible overlap between the model and the data. Record the values for Nₜ, μ, and CV.</p>
-</li>
-<li><p>Repeat this exercise for spectrum &quot;S2&quot;. </p>
-</li>
-<li><p>Contrast the Nₜ, μ, and CV between &quot;S1&quot; and &quot;S2&quot;. Write a short paragraph that quantitively summarizes the differences between the two spectra. </p>
-</li>
-<li><p>Advanced question: The spectrum &quot;S1&quot; corresponds to regions in the cloud where updraft velocities are higher while the spectrum &quot;S2&quot; corresponds to regions in the cloud where updraft velocities are lower. Propose a hypothesis that might explain the differences between S1 and S2.</p>
-</li>
-</ol></div></div>
-<h3 id="part_2_rain_formation_by_autoconversion"><a href="#part_2_rain_formation_by_autoconversion" class="header-anchor">Part 2: Rain Formation by Autoconversion</a></h3>
-<p>The distribtuion of cloud droplets evoles during autoconversion. Collisions of two droplets reduces cloud droplet number concentration. Collisions also produce drops of a larger size. The cloud liquid water content &#40;LWC&#41; is controlled mainly by thermodyamics. The combination of droplet concentration and LWC yields the mean droplet diameter. The CV value determines the dispersion of the distribution as in Figure 2. </p>
-<p>
-<div class="myframe2">
-<iframe class="responsive-iframe" src="https://caesar2024.github.io/webapps/hjve/"   style="border:none;"></iframe>
-</div>
- <strong>Figure 3.</strong> Evolution of cloud and rain liquid water content &#40;LWC&#41;, mean rain drop diameter &#40;D&#41; and rain number concentration &#40;N&#41; over time. </p>
-<p>Figure 3 highlights several important points. The initial transfer from cloud liquid water to rain liquid water is slow. Once the process reaches a critical point the cloud liquid water is rapidly converted to rain liquid water within a few 10s of minutes. Similarly, the diameter growth of the rain is at first low. However, near the critical point the average rainwater diameter rapidly grows to millimeter size in diameter, which is the characteristic diameter of rain drops during &quot;moderate&quot; rain. Similarly the number of rain drops first increases until it reaches a maximum. At the maximum self-collection of rain drops leads to growth in size and a decrease in their number.</p>
-<p>The time to rain formation due to autoconversion depends on \(N_t\), LWC, and CV.  Higher LWC results in faster rain formation.  Clouds with higher number concentration develop precipitation more slowly. Finally, the broadness of the distribution, expressed by the CV value, also influences time to rain formation. Broader distributions lead to more rapid rain formation.</p>
-<div class="exercise"><div class="title"><strong>？ Test Your Understanding</strong></div>
-<div class="content"><ol>
-<li><p>Prove to yourself that the model conserves liquid water.</p>
-</li>
-<li><p>Use the sliders to explore the influence of \(N_t\), LWC, and CV. Based on your exploration, rank the relative importance of \(N_t\), LWC, and CV on the time to rain formation.</p>
-</li>
-<li><p>Propose an explanation why an increase in \(N_t\) will decrease the precipitation efficiency of a cloud.  </p>
-</li>
-<li><p>Advanced question: Propose an explanation on how atmospheric aerosol might influence rain formation via autoconversion.</p>
-</li>
-</ol></div></div>
-<h3 id="part_3_math_stuff"><a href="#part_3_math_stuff" class="header-anchor">Part 3: Math Stuff</a></h3>
-<p>It is desirable that the size distribution remains describable by a single mathematical function during the entire process. This is called the <em>main function approach</em>. The <a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution probability density function</a>  is suitable to characterize autoconversion. </p>
-<div class="note"><div class="title"><strong>✎ Mathematical Representation</strong></div>
-<div class="content">\(f(x) = A x^\nu \exp(-B x)\)
-<p>where \(A\) &#40;\(cm^{-3}\; g^{1-\nu}\)&#41;, \(\nu\; (-)\), and \(B\;(g^{-1})\) are parameters of the distribution, and \(x\) is the mass of the drop. The distribution \(f(x)\) has units of \(cm^{-3}\). The integral \(\int_0^\infty f(x)dx\) equals the liquid water content in gram per cubic centimeter of air. A triplet of values for \(A\), \(\nu\), \(B\) can be fitted to describe a measured hydrometeor distribution.</p></div></div>
-<p>While the function above is written in terms of hydrometeor mass, measurements are often in terms of hydrometeor diameter, as shown in Figure 2. The parameters of the mass-based Gamma distribution function can be obtained from the inputs to Figure 2 \(N_t\), \(\mu\), and \(CV\) through mathematical transformation. The \(\nu\) paremeter determines the width of the distribution and thus affects the autoconversion rate. It is related to the coefficient of variation via \(\nu \approx 0.112/CV^2 - 1\), which is a relationship similar to that in Eq. 14 of Austin et al. &#40;1995&#41;.</p>
-<h3 id="part_3_references"><a href="#part_3_references" class="header-anchor">Part 3: References</a></h3>
-<p>Austin, P., Y. Wang, V. Kujala, and R. Pincus, 1995: Precipitation in stratocumulus clouds: Observational and modeling results. J. Atmos. Sci., 52, 2329–2352, doi:10.1175/1520-0469&#40;1995&#41;052,2329:PISCOA.2.0.CO;2.</p>
-<p>Snider, J.R. and Brenguier, J.-L. &#40;2000&#41;, Cloud condensation nuclei and cloud droplet measurements during ACE-2. Tellus B, 52: 828-842. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0889.2000.00044.x">https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0889.2000.00044.x</a>.</p>
+<div class="franklin-content"><h1 id="research_flight_1"><a href="#research_flight_1" class="header-anchor">Research Flight 1</a></h1>
+<p>On Feb 28 it is finally time for our first research flight. At about 9:40 in the morning, the aircraft is moved out of the hangar and hooked up to ground power. At this time, researchers are allowed to board the aircraft and begin pre-flight preparations. Initially, the temperature inside the aircraft is quite cold at about 8°C. The people inside the plane and the heat given off by the instruments slowly warm up the inside of the plane. Still gloves are required if you want to hit the right key on the keyboard.  </p>
+
+<iframe src="https://www.youtube.com/embed/KC6SNKYwOk0" style="border:none;"> </iframe>
+
+<p>We have about 2 hours for pre-flight preparations. Then the crew splits into flight scientist who stay on board during the research flight and ground scientists who stay back. About 15 minutes before takeoff the ground scientists are booted from the plane and the door is closed. Pilots start the engine and coordinate with air traffic control. Most of the ground crew gathers to wish the plane farewell. </p>
+
+<iframe src="https://www.youtube.com/embed/Mw-l44C0d4c" style="border:none;"> </iframe>
+
+<p>At 11:39 it is time for takeoff. </p>
+
+<iframe src="https://www.youtube.com/embed/XGgPwaxsfsg" style="border:none;"> </iframe>
+
+<p>The CAESAR campaign is up and running&#33;</p>
 <div class="page-foot">
     <!-- <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> {{ fill author }}. {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}</a>. -->
     <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></a> Markus Petters and Jefferson Snider.
@@ -149,11 +104,6 @@
 
     <script src="/libs/minimal-mistakes/main.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
-
-    
-        <script src="/libs/katex/katex.min.js"></script>
-<script src="/libs/katex/contrib/auto-render.min.js"></script>
-<script>renderMathInElement(document.body)</script>
 
     
     
