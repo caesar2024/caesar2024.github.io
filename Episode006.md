@@ -28,11 +28,10 @@ Approaching Greenland allowed us to sample particle concentrations in the bounda
 
 **Video 1.** Short video of the C-130 sampling aerosol in the boundary layer above the marginal ice zone. (Video by Lintong Cai).
 
-On this flight we sampled aerosol at an altitude of 750 m for 5 min. This is in the lowest layer of the atmosphere, the boundary layer, which is in contact with Earth surface. Black carbon number concentrations were ~10 cm⁻³. A spike in concentration between 16:18 and 16:19 may be due to a local source.
+On the way back we sampled aerosol at an altitude of 525 m above ground level for a period of 20 min. This is in the lowest layer of the atmosphere, the boundary layer, which is in contact with Earth surface. Black carbon number concentrations were ~3.3 cm⁻³. Note the gradual increase in temperature after 15:30, which corresponds to the transition from the pack ice to the marginal ice zone on the transit back from the ice toward Kiruna.  
 
 ![Black carbon data](/assets/rbc.png)
 
-**Figure 4.** Measured black carbon concentration in the boundary layer of the marginal sea ice zone. (Preliminary data).
-
+**Figure 4.** Measured black carbon concentration in the boundary layer across the transition between pack ice and the marginal sea ice zone. The flight direction is from the pack ice (earlier) toward open water (later).
 
 Analyzing these data in more detail and across multiple research flights will help us understand gradients in the black carbon size distribution, the black carbon mass concentrations, the spatial distribution of black carbon, and local black carbon sources. Ultimately, these data will help to validate black carbon forecast models (e.g. Figure 1) and develop models to help us better understand the influence of black carbon on Arctic sea ice and Arctic warming.
