@@ -21,4 +21,3 @@ Using a combination of three aerosol size spectrometers we are able to character
 **Figure 3.** Measured aircraft altitude, wind speed, and total aerosol number concentration (left plots, top-to-bottom). The size distribution (right) is measured by a scanning mobility particle sizer (SMPS), an Ultra-High Sensitivity Aerosol Spectrometer (UHSAS), and a Passive Cavity Aerosol Spectrometer Probe (PCASP).  
 
 Samples at high wind speed and over the remote ocean are rare and thus critical for understanding the sea spray source function and how sea spray controls the boundary layer aerosol budget. Analyzing observations from the size spectrometers in more detail and across multiple research flights will help us quantify the contribution of sea spray emissions to the boundary layer particle burden and the influence of these particles on clouds over this region. 
-
