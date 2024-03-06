@@ -14,7 +14,7 @@ During CAESAR we have the opportunity to sample aerosol close to the sea surface
 
 **Figure 2.** Picture of the sea state sampling inside the boundary layer during CAESAR at a wind speed of 17 m/s. The white areas are regions of wave breaking and sea spray production. 
 
-Using a combination of three aerosol size spectrometers we are able to characterize and constrain the aerosol size distribution from 10 to 4000 nm. On one of the flights we sampled aerosol at an altitude of 750 m above ground level for a period of 10 min at wind speed exceeding 20 m/s. Total aerosol number concentration varied between ~200 and ~400 cm⁻³ and were positively correlated with wind speed. The size distribution shows three main modes, one at ~20 nm, one at ~150 nm, and one at ~2000 nm. 
+Using a combination of three aerosol size spectrometers we are able to characterize and constrain the aerosol size distribution from 10 to 4000 nm. On one of the flights we sampled aerosol at an altitude of 750 m above ground level for a period of 10 min at wind speed exceeding 20 m/s. Total aerosol number concentration varied between 200 and 400 cm⁻³ and were positively correlated with wind speed. The size distribution shows three main modes, one at 20 nm, one at 150 nm, and one at 2000 nm. 
 
 ![Sea spray leg](/assets/sea_leg.png)
 
