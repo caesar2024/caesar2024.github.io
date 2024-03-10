@@ -64,6 +64,8 @@ We are a small research team whose members participate in the Cold-Air outbreak 
 
 UCR News: [Enduring gut-churning flights in quest for Arctic climate data](https://news.ucr.edu/articles/2024/03/06/enduring-gut-churning-flights-quest-arctic-climate-data)
 
+UCAR News: [Flying into the cold unknown](https://news.ucar.edu/132944/flying-cold-unknown)
+
 ~~~
     <table style="width:100%">
     <tr>
