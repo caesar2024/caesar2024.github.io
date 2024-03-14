@@ -1,13 +1,3 @@
-+++
-title = "What, Where, When, Who, and Why?"
-hascode = true
-date = Date(2023, 6, 10)
-rss = "Episode 1: What, Where, When, Who, and Why?"
-+++
-
-
-
-
 # "What, Where, When, Who, and Why?"
 
 ## What?
